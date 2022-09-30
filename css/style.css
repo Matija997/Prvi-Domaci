@@ -57,7 +57,13 @@
     width: 280px;
     transition: .5s;
 }
-.user{
+.user-passR{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.username{
     width: 100%;
     padding: 10px 0;
     margin: 5px 0;
@@ -68,6 +74,51 @@
     outline: none;
     background: transparent;
 }
+.userR{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.password{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.passR{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.email{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
 .submit-btn{
     width: 85%;
     padding: 10px 30px;

@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+<DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
@@ -11,20 +12,20 @@
             <div class="button-box">
                 <div id="btn"></div>
                 <button type="button" class="toggle-btn" onclick="login()">Prijava</button>
-                
+
                 <button type="button" class="toggle-btn" onclick="register()">Registracija</button>
             </div>
-            <form id="logIn" class="user-pass">
-            <input type="text" class="user" placeholder="Korisnićko ime" required>
-            <input type="text" class="user" placeholder="Unesi lozinku" required>
+            <form id="logIn" class="user-pass" method="POST" action="#">
+            <input type="text" class="username" placeholder="Korisnićko ime" required>
+            <input type="password" class="password" placeholder="Unesi lozinku" required>
             <input type="checkbox" class="check"><span>Zapamti lozinku</span>
             <button type="submit" class="submit-btn">Prijavi se</button>
 
             </form>
-            <form id="regis" class="user-pass">
-            <input type="text" class="user" placeholder="Korisničko ime" required>
-            <input type="text" class="user" placeholder="Email" required>
-            <input type="text" class="user" placeholder="Unesi lozinku" required>
+            <form id="regis" class="user-passR">
+            <input type="text" class="userR" placeholder="Korisničko ime" required>
+            <input type="text" class="email" placeholder="Email" required>
+            <input type="password" class="passR" placeholder="Unesi lozinku" required>
             <input type="checkbox" class="check" required><span>Prihvatam uslove korišćenja</span>
             
             <button type="submit" class="submit-btn">Registruj se</button>
