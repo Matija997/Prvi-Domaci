@@ -1,9 +1,13 @@
 <DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <title>Log in</title>
     <link rel="stylesheet" href="css/style.css">
+    
+   
 </head>
 <body>
     <div class="header">
@@ -22,14 +26,15 @@
 
             </form>
             <form id="regis" action="sing.php" method="POST" class="user-passR" >
-                <input type="text" class="userR" name="name" id="name"placeholder="Korisničko ime"  require>
-                <input type="email" class="email" name="email" id="email" placeholder="Email"   require>
-                <input type="password" class="passR" name="password" id="password" placeholder="Unesi lozinku" require >
-                <input type="checkbox" class="check" required><span>Prihvatam uslove korišćenja</span>
+                <input type="text" class="userR" name="name" id="name"placeholder="Korisničko ime" required >
+                <input type="email" class="email" name="email" id="email" placeholder="Email"  required >
+                <input type="password" class="passR" name="password" id="password" placeholder="Unesi lozinku" required>
+                <input type="checkbox" class="check" required ><span>Prihvatam uslove korišćenja</span>
             
                 <button type="submit" class="submit-btn">Registruj se</button>
 
             </form>
+            
 
         </div>
         
